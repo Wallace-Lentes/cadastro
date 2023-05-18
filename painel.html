@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resilia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>RESILIA</h1>
+    <h2>Cadastro</h2>
+    <form action="salva.txt" method="post">
+        <div>
+            <label for="nome"> Nome completo </label>
+            <input type="text" placeholder="Nome e sobrenome">
+        </div>
+        <div>
+            <label for="datnasc">Data de nascimento </label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="cpf">*CPF</label>
+            <input type="text" placeholder="000.000.000-00">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="text" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="ddd">* DDD</label>
+            <input type="text" placeholder="00">
+            <label for="tel">* Telefone</label>
+            <input type="tel" placeholder="00000-0000">
+        </div>
+        <div>
+            <label for="genero">Gênero</label>
+             <select name="genero" >
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="NB">Não-Binário</option>
+            </select><br><br>
+        </div> 
+                    
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
